@@ -1,0 +1,289 @@
+header {
+  background-color: #171a21;
+}
+body {
+  background: url(https://store.cloudflare.steamstatic.com/public/images/v6/colored_body_top2.png?v=2)
+    center top no-repeat #1b2838;
+  font-family: "Lato", sans-serif;
+  margin: 0px;
+  width: 100vw;
+  overflow-x: hidden;
+}
+a {
+  text-decoration: none;
+}
+button {
+  cursor: pointer;
+}
+.navbar {
+  display: flex;
+  justify-content: center;
+}
+.insideNav {
+  width: 940px;
+  height: 104px;
+  display: flex;
+  justify-content: space-between;
+}
+.insideNav a {
+  color: #b8b6b4;
+}
+.insideNav a:hover {
+  color: white;
+}
+.mainButtonNav {
+  display: flex;
+  align-items: center;
+  align-self: center;
+}
+.mainWordsNav {
+  width: 280px;
+  height: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+.insideVideo {
+  position: relative;
+}
+.subNav {
+  position: absolute;
+  margin-left: 50%;
+  transform: translateX(-50%);
+  z-index: 1;
+}
+.subNavContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 940px;
+  height: 30px;
+  background-color: rgba(62, 126, 167, 0.8);
+}
+.navRightColor {
+  background-color: rgba(62, 126, 167, 0.8);
+}
+.subNavLeft {
+  display: flex;
+  align-items: center;
+  padding: 0px;
+  border: 0px;
+}
+.navLeftInput {
+  background-color: #316282;
+}
+
+.apexVideo {
+  margin-left: 50%;
+  transform: translateX(-50%);
+  z-index: 2;
+}
+.subButtonNav {
+  width: 240px;
+  height: 25px;
+  display: flex;
+  justify-content: space-between;
+}
+.subButtonNav button {
+  background: #5c7e10;
+  color: white;
+}
+/* sidebar */
+.sideBar {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  margin-left: 30px;
+}
+.sideBar p {
+  color: #c6d4df;
+}
+.small-pic {
+  width: 210px;
+  height: 116px;
+}
+.smallATags {
+  color: #66c0f4;
+  font-size: 13px;
+}
+.smallATags:hover {
+  color: white;
+}
+@media (max-width: 1450px) {
+  .sideBar {
+    display: none;
+  }
+}
+.mainTopTitle {
+  display: flex;
+  justify-content: center;
+}
+.toFitIn {
+  width: 930px;
+  height: 40px;
+  margin-bottom: 5px;
+}
+.toFitIn h3 {
+  color: white;
+}
+.mainTop {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+.smallerContainer {
+  width: 315px;
+  height: 353px;
+  background-image: url(https://store.cloudflare.steamstatic.com/public/images/v6/home/background_maincap_2.jpg);
+}
+.smallerContainer h2,
+.smallerContainer p {
+  color: white;
+}
+
+.smallerTopMainPics {
+  width: 150px;
+  height: 70px;
+}
+/* main middle */
+.mainMiddle {
+  display: flex;
+  justify-content: center;
+}
+.mainMiddleContainer {
+  width: 940px;
+  height: 400px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.middleCombinePic {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-bottom: 7px;
+}
+.smallerMiddlePicBack {
+  width: 306px;
+  height: 143px;
+}
+
+.mainMiddlePic {
+  position: relative;
+}
+.mainMiddlePicBack {
+  position: absolute;
+  z-index: 1;
+}
+.mainMiddlePicFront {
+  position: absolute;
+  width: 306px;
+  height: 113px;
+  background-image: url(https://steamstore-a.akamaihd.net/public/images/v6/home/background_spotlight.jpg);
+  z-index: 2;
+  top: 280px;
+}
+
+.mainMiddlePicFront h3 {
+  margin: 5px 0 5px 5px;
+  color: white;
+}
+.mainMiddlePicFront p {
+  color: #acdbf5;
+  font-size: 12px;
+  margin: 0 0 20px 5px;
+}
+.wholePrice {
+  display: flex;
+  align-items: center;
+  width: 130px;
+  height: 34px;
+  margin-left: 5px;
+}
+.wholePrice h1 {
+  color: #a4d007;
+  background-color: #4c6b22;
+}
+.priceBox {
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(0, 0, 0, 0.6);
+  color: #acdbf5;
+}
+.priceBox * {
+  padding: 0 2px 0 2px;
+}
+.smallerMiddlePicFront {
+  background-color: #acdbf5;
+  width: 306px;
+  height: 44px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.smallerMiddlePicFront p {
+  color: #283846;
+}
+/* main bottomest */
+.mainBottomest {
+  display: flex;
+  justify-content: center;
+  background-color: black;
+  margin: 80px 0 80px 0;
+  padding: 30px 0 30px 0;
+}
+.insideMainBottomest {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.insideMainBottomest h2 {
+  color: #67c1f5;
+}
+.insideMainBottomest p {
+  color: #8f98a0;
+}
+.insideMainBottomest a {
+  color: white;
+}
+.insideMainBottomest a:hover {
+  color: #67c1f5;
+}
+.insideMainBottomest button {
+  color: #d2e885;
+  background: linear-gradient(to bottom, #a4d007 5%, #536904 95%);
+}
+/* footer */
+footer {
+  display: flex;
+  justify-content: center;
+}
+.insideFooter {
+  width: 940px;
+  height: 156px;
+  font-size: 12px;
+  color: #8f98a0;
+}
+.insideFooter p {
+  margin: 0px;
+}
+.insideFooter a {
+  color: #c6d4df;
+}
+.insideFooter a:hover {
+  color: white;
+}
+.footerTopHalf {
+  display: flex;
+}
+.valveLogo {
+  width: 88px;
+  height: 25px;
+}
+.footerBottomHalf {
+  width: 605px;
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
