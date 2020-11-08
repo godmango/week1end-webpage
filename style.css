@@ -49,6 +49,7 @@ button {
   position: absolute;
   margin-left: 50%;
   transform: translateX(-50%);
+  margin-top: 10px;
   z-index: 1;
 }
 .subNavContainer {
@@ -82,6 +83,7 @@ button {
   height: 25px;
   display: flex;
   justify-content: space-between;
+  margin-top: 5px;
 }
 .subButtonNav button {
   background: #5c7e10;
@@ -148,6 +150,7 @@ button {
 .mainMiddle {
   display: flex;
   justify-content: center;
+  margin-bottom: 30px;
 }
 .mainMiddleContainer {
   width: 940px;
@@ -224,6 +227,27 @@ button {
 .smallerMiddlePicFront p {
   color: #283846;
 }
+/* four buttons */
+.fourButtonses {
+  display: flex;
+  justify-content: center;
+}
+.fourButtonContainer {
+  width: 940px;
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+}
+.fourButtons {
+  width: 226px;
+  height: 58px;
+  font-size: 18px;
+  color: #66c0f4;
+  border-radius: 3px;
+  background-position-y: -105px;
+  box-shadow: black;
+  background: url(https://steamstore-a.akamaihd.net/public/images/v6/home/background_spotlight.jpg);
+}
 /* main bottomest */
 .mainBottomest {
   display: flex;
@@ -252,6 +276,8 @@ button {
 .insideMainBottomest button {
   color: #d2e885;
   background: linear-gradient(to bottom, #a4d007 5%, #536904 95%);
+  padding: 5px 15px 5px 15px;
+  border-radius: 3px;
 }
 /* footer */
 footer {
